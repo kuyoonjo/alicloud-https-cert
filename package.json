@@ -1,0 +1,15 @@
+{
+  "name": "alicloud-https-cert",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "pkg -t node12-linux-x64 ahc.js --out-path release",
+    "build:macos": "pkg -t node12-macos-x64 ahc.js --out-path debug"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@alicloud/pop-core": "^1.7.12"
+  }
+}

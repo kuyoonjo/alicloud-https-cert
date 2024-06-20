@@ -1,0 +1,10 @@
+{
+  "subDomains": [
+    "*.rtls"
+  ],
+  "baseDomain": "coreaiot.com",
+  "acme_path": "/Users/yu/.acme.sh/acme.sh",
+  "accessKeyId": "",
+  "accessKeySecret": "",
+  "endpoint": "alidns.cn-hangzhou.aliyuncs.com"
+}
